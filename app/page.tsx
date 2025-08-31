@@ -473,9 +473,7 @@ export default function Home() {
       <footer className="py-8 bg-black/40 backdrop-blur-sm border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-400 text-base">
-            © 2024 <span className="text-purple-400 font-semibold">Umar Farooq</span>. All rights reserved. Built with{' '}
-            <span className="text-red-400">❤️</span> using <span className="text-blue-400 font-semibold">Next.js</span> &{' '}
-            <span className="text-cyan-400 font-semibold">Tailwind CSS</span>
+            © 2024 <span className="text-purple-400 font-semibold">Umar Farooq</span>. All rights reserved.
           </p>
         </div>
       </footer>
