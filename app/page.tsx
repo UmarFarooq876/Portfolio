@@ -221,7 +221,6 @@ export default function Home() {
                   { text: 'Tailwind CSS', bg: 'bg-cyan-600/20', textColor: 'text-cyan-400', border: 'border-cyan-400/30' }
                 ].map((badge, index) => (
                   <div key={index} className={`${badge.bg} ${badge.border} px-4 py-2 rounded-lg border backdrop-blur-sm hover:scale-105 transition-all duration-300`}>
-                    <span className={`${badge.textColor} font-semibold text-sm`}>{badge.text}</span>
                   </div>
                 ))}
               </div>
