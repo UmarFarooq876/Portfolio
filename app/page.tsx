@@ -203,10 +203,11 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-6">Who I Am</h3>
               <div className="space-y-4">
                 <p className="text-base text-gray-300 leading-relaxed">
-                  I'm <span className="text-purple-400 font-semibold">Umar Farooq</span>, a passionate full-stack developer specializing in modern web technologies. 
-                  I love creating beautiful, functional, and user-centered digital experiences using 
-                  cutting-edge frameworks and tools.
-                </p>
+  I&apos;m <span className="text-purple-400 font-semibold">Umar Farooq</span>, a passionate full-stack developer specializing in modern web technologies. 
+  I love creating beautiful, functional, and user-centered digital experiences using 
+  cutting-edge frameworks and tools.
+</p>
+
                 <p className="text-base text-gray-300 leading-relaxed">
                   My expertise lies in frontend development with <span className="text-blue-400 font-semibold">React.js</span> and <span className="text-green-400 font-semibold">NextJS</span>, creating responsive 
                   designs with <span className="text-cyan-400 font-semibold">Tailwind CSS</span>, and building robust web applications with <span className="text-orange-400 font-semibold">HTML</span> and <span className="text-yellow-400 font-semibold">JavaScript</span>. 
@@ -355,11 +356,11 @@ export default function Home() {
           </div>
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-white mb-6">Let's Work Together</h3>
+             <h3 className="text-2xl font-bold text-white mb-6">Let&apos;s Work Together</h3>
               <p className="text-base text-gray-300 leading-relaxed">
-                I'm always interested in hearing about new projects and opportunities. 
-                Whether you have a question or just want to say hi, I'll try my best to get back to you!
-              </p>
+  I&apos;m always interested in hearing about new projects and opportunities. 
+  Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
+</p>
               <div className="space-y-4">
                 {[
                   { icon: '📧', label: 'Email', value: 'imumar837@gmail.com', bg: 'bg-purple-600/20', border: 'border-purple-400/30' },
