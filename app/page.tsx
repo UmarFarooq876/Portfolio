@@ -124,7 +124,7 @@ export default function Home() {
               <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 p-1 animate-pulse">
                 <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                   {/* Placeholder for your image - replace src with your actual image */}
-                  <img 
+                  <Image 
                     src="/umar.jpg" 
                     alt="Umar Farooq" 
                     className="w-full h-full object-cover rounded-full"
@@ -139,7 +139,7 @@ export default function Home() {
                     }}
                   />
                   <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden" style={{ display: 'none' }}>
-  <img
+  <Image
     src="/umar.jpg"
     alt="Umar"
     className="w-full h-full object-cover"
@@ -355,7 +355,7 @@ export default function Home() {
     <div key={index} className="group bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden hover:bg-white/10 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 border border-white/10">
       <div className="p-6">
         <div className={`w-full h-32 bg-gradient-to-br ${project.gradient} rounded-xl flex items-center justify-center mb-4 overflow-hidden group-hover:scale-105 transition-transform duration-500`}>
-          <img
+          <Image
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover"
